@@ -1,0 +1,260 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .container{
+    margin: 0;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("./pc12.png"); 
+    min-height: 620px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Needed to position the navbar */
+    /* position: relative; */
+  }
+  .topnav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    background-color: rgb(122, 104, 79);
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: #b6aa7b;
+    color: white;
+  }
+  
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+
+  /* ..................  body  .......................*/
+
+   .image{
+    display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-rows: auto;
+      grid-gap: 12px;
+      padding: 10px;
+      width: 100%;
+  }
+  .containimg{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto ;
+    margin-top: 20px;
+    text-align: center;
+    font-family: arial;
+  }
+  .containimg button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(122, 104, 79);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .containimg button:hover {
+    opacity: 0.7;
+  }
+  .tit{
+    padding: 3px 16px;
+    font-size: 26px;
+  }
+  img{
+   margin: 4px;
+    width: 100%;
+  }
+  
+  /*  favorite icon */
+  
+  i{
+    width: 60px;
+    float: right;
+    font-size: 20px;
+  }
+  
+  /* ....................... description page ..................... */
+  
+  .ext2 {
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 10px ;
+  
+  }
+  
+  .t1{
+    text-align: center;
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .gItem{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin-top: 13px;
+    margin-bottom: 30px;
+  }
+  
+ 
+  .ig3{
+    width: 500px;
+  
+  }
+  
+  
+  /* .........................  footer  ........................ */
+  
+  footer {
+    padding: 20px;
+    background-color: rgb(122, 104, 79);
+    color: white;
+  }
+    footer p{
+      text-align: center;
+      font-size: 20px;
+    }
+   
+  .fa{
+    text-decoration: none;
+    color: #ddd;
+    float: left;
+    /* margin: 10px; */
+    padding: 3px;
+    font-size: 20px;
+    cursor: pointer;
+    
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  /* ........................ coffee page ............................... */
+  
+  .coffeeInfo{
+    width: 50%;
+    border: 1px solid black;
+    margin : 100px;
+    margin-left: 370px;   
+    padding: 20px;
+    text-align: center;
+    background-color: #dbb672ef;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);}
+  
+  .coffeeInfo ul{
+    list-style-type: none;   
+    }
+  
+  .coffeeInfo li{
+    font-size: 26px;
+    font-weight: bold;
+    color: black;  
+    }
+  
+  .coffeeInfo p{
+    color: black;
+    font-size: 20px;
+  }
+ 
+    /* ........................ about page ......................... */
+
+  .abut{
+    width: 50%;
+    border: 1px solid black;
+    margin : 200px;
+    margin-left: 370px;   
+    padding: 50px;
+    background-color: #dbb672ef;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+  
+  .abut h3{
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .abut p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .abut .fa{
+    text-decoration: none;
+    color: wheat;
+    /* width: 100px; */
+    margin-left: 150px;
+    padding: 10px;
+    /* font-size: 20px; */
+    text-shadow: 2px 2px black;
+    cursor: pointer;   
+  }
+  
+  a :hover {
+    opacity: 0.7;
+  }
+
+  /* ..................... favorite page ...................... */
+  .myFav{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    grid-gap: 12px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+    /* ....................... media query ........................ */
+    
