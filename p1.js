@@ -4,7 +4,7 @@ let myImage = JSON.parse(localStorage.getItem("arr")) || [
       im1: "Vienna.jpg",
       extraImg: ["Vienna4.jpg"],
       des: "There are a few variations on the Vienna but one of the most common is made with two ingredients espresso and whipped cream The whipped cream takes the place of milk and sugar to provide a creamy texture",
-      fav: false,
+      fav: false, 
     },
     {
       title: "Frappucino",
@@ -73,8 +73,9 @@ let myImage = JSON.parse(localStorage.getItem("arr")) || [
         <img  src=' ${item.im1}'/> 
         <i onclick= 'favoriteCard(${i})'  id="favr-${i}"  class="far fa-heart"></i>
         <h2  class="tit"> ${item.title}</h2> 
-        <button onclick='renderOneItem(${i})' > More Here </button>
+        <button onclick='renderOneItem(${i})' > + </button>
         </div>`);
+        
   
     if (item.fav === true) {
     $("#favr-"+i).removeClass("far")

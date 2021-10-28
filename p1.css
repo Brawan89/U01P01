@@ -70,6 +70,15 @@ body {
     background: #ccc;
   }
 
+  .topnav .cimg {
+      width: 40px;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+
   /* ..................  body  .......................*/
 
    .image{
@@ -98,7 +107,7 @@ body {
     text-align: center;
     cursor: pointer;
     width: 100%;
-    font-size: 18px;
+    font-size: 30px;
   }
   .containimg button:hover {
     opacity: 0.7;
@@ -119,6 +128,7 @@ body {
     float: right;
     font-size: 20px;
   }
+
   
   /* ....................... description page ..................... */
   
@@ -256,5 +266,12 @@ body {
     margin-top: 25px;
     margin-bottom: 25px;
   }
+  
     /* ....................... media query ........................ */
-    
+    @media only screen and (max-width: 768px) {
+        .bg-img {
+            width: 117%;
+            /* padding: 50px ; */
+        }
+
+      }
